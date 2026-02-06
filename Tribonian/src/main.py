@@ -20,8 +20,8 @@ DATA_INCOME_FOLDER.mkdir(parents=True, exist_ok=True)
 DATA_PREPARED_FOLDER.mkdir(parents=True, exist_ok=True)
 
 
-# get_files(GDRIVE_URLS, DATA_INCOME_FOLDER)
-# convert_files(DATA_INCOME_FOLDER, DATA_PREPARED_FOLDER)
+get_files(GDRIVE_URLS, DATA_INCOME_FOLDER)
+convert_files(DATA_INCOME_FOLDER, DATA_PREPARED_FOLDER)
 
 # device=0 — GPU, device=-1 — CPU
 summarizer = Summarizer(device=0)

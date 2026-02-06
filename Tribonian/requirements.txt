@@ -6,3 +6,4 @@ gdown==5.2.1
 PyMuPDF==1.26.7
 pytesseract==0.3.13
 pillow==12.1.0
+docling==2.72.0
